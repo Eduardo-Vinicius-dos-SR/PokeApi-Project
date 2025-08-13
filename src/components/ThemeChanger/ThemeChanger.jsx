@@ -14,6 +14,11 @@ const Button = styled.button`
 	margin-right: 7px;
 	border-radius: 12px;
 	padding: 10px 12px;
+	transition: 0.3s ease-in-out;
+
+	&:active {
+		scale: 0.95;
+	}
 
 	img {
 		min-width: 100%;

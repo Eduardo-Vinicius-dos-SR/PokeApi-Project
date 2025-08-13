@@ -9,6 +9,7 @@ const Nav = styled.nav`
 	justify-content: space-between;
 	align-items: center;
 	background-color: rgba(59, 85, 99, 0.26);
+	padding-right: 30px;
 
 	.logo {
 		max-height: 50px;
@@ -40,7 +41,7 @@ const Nav = styled.nav`
 
 	li a {
 		color: #fff;
-		transition: 0.3s ease-in-out;
+		transition: 0.2s ease-in-out;
 	}
 	li a:hover {
 		color: rgb(255, 59, 59);
@@ -48,6 +49,7 @@ const Nav = styled.nav`
 	}
 	li a:active {
 		color: rgba(255, 59, 59, 0.5);
+		scale: 0.95;
 	}
 
 	@media (max-width: 768px) {

@@ -33,6 +33,9 @@ const Ul = styled.ul`
 		text-decoration: underline;
 		background-color: rgba(0, 0, 0, 0.25);
 	}
+	li button:active {
+		scale: 0.95;
+	}
 
 	li p {
 		font-size: 1.25em;
