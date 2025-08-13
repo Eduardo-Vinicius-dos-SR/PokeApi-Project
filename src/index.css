@@ -1,5 +1,6 @@
 html {
 	width: 100dvw;
+	overflow-x: hidden;
 }
 
 body.light_theme {
