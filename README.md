@@ -25,7 +25,7 @@
 
 ### Links
 
-- Live Site URL: [GitHub Pages](https://eduardo-vinicius-dos-sr.github.io/PokeApi/)
+- Live Site URL: [GitHub Pages](https://Eduardo-Vinicius-dos-SR.github.io/PokeApi-Project/)
 
 ## Author
 

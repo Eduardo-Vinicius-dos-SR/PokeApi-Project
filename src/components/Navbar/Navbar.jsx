@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import Logo from "../../assets/img/Logo.png";
 import styled from "styled-components";
+import { ThemeButton } from "../ThemeChanger/ThemeChanger";
 
 const Nav = styled.nav`
 	display: flex;
@@ -103,7 +104,7 @@ export function Navbar() {
 				</li>
 			</ul>
 
-			<ThemeChanger />
+			<ThemeButton />
 		</Nav>
 	);
 }
