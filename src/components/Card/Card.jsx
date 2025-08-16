@@ -381,7 +381,7 @@ export function Card({ thing, whatIs, shortInformation = true }) {
 			<CardItem key={thing.id} className="berry short">
 				<img
 					onClick={() => {
-						alert("Soon...");
+						alert("Coming soon...");
 					}}
 					src={thing.sprites.default}
 					alt={`${thing.name} image`}
