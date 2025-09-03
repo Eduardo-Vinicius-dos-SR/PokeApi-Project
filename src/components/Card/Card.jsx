@@ -130,6 +130,7 @@ const CardItem = styled.li`
 	&.berry img {
 		margin: 15px 0 25px;
 		scale: 2;
+  cursor: default;
 	}
 
 	/* --- Responsividade --- */
@@ -379,11 +380,7 @@ export function Card({ thing, whatIs, shortInformation = true }) {
 	} else if (whatIs == "berry") {
 		return (
 			<CardItem key={thing.id} className="berry short">
-				<img
-					onClick={() => {
-						alert("Coming soon...");
-					}}
-					src={thing.sprites.default}
+				<img src={thing.sprites.default}
 					alt={`${thing.name} image`}
 				/>
 				<h2>{thing.name}</h2>
