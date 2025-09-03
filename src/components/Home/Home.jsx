@@ -50,17 +50,11 @@ export function Home() {
 		<Div>
 			<div>
 				<h1>Welcome!</h1>
-				<h2>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h2>
+				<h2>To PokeApi Page!</h2>
 
 				<p>
-					{" "}
-					Esse, quidem. Perspiciatis ipsa dolorum sequi quasi quidem qui recusandae odio. Laborum, quis consequuntur
-					fugit molestiae iste laboriosam dolorem! Ducimus, maiores exercitationem?
-				</p>
-				<p>
-					{" "}
-					Esse, quidem. Perspiciatis ipsa dolorum sequi quasi quidem qui recusandae odio. Laborum, quis consequuntur
-					fugit molestiae iste laboriosam dolorem! Ducimus, maiores exercitationem?
+					{" "}					
+This page will show you some Pokémon or some Berries in small cards or if you prefer you can see the Pokémon in more detail (click on them!).
 				</p>
 			</div>
 
